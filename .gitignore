@@ -1,0 +1,48 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Build de produção
+dist/
+build/
+
+# Variáveis de ambiente (NUNCA comitar!)
+.env
+.env.local
+.env.*.local
+
+# Banco de dados SQLite (desenvolvimento)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript compilado
+server/dist/
+
+# Prisma
+prisma/migrations/
+
+# Vite cache
+.vite/
